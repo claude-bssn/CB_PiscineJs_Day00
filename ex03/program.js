@@ -1,3 +1,5 @@
+let string = "abcdabcd";
+
 function firstNonRepeatingCharacter(string) {
     let obj = {};
     let i =0
@@ -11,12 +13,15 @@ function firstNonRepeatingCharacter(string) {
     });
 
     const obj_length= Object.keys(obj).length;
-
+    
     for (const [key,value] of Object.entries(obj)) {
        if(Number.isInteger(value)){
             return value;
         }
+        
     } 
+    return -1;
 }
+console.log(firstNonRepeatingCharacter(string));
     // Do not edit the line below.
     exports.firstNonRepeatingCharacter = firstNonRepeatingCharacter;

@@ -1,3 +1,6 @@
+let array = [ 3, 5, -4, 8, 11, 1, -1, 6];
+let targetSum = 10;
+
 function twoNumberSum(array, targetSum){
     // écrivez votre code ici.
     let array_result = [];
@@ -21,5 +24,6 @@ function twoNumberSum(array, targetSum){
     });
  return array_result;
 }
+console.log(twoNumberSum(array, targetSum));
     // Merci de ne pas effacer la ligne en dessous.
     exports.twoNumberSum =  twoNumberSum;
