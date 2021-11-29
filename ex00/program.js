@@ -1,6 +1,3 @@
-let array = [ 3, 5, -4, 8, 11, 1, -1, 6];
-let targetSum = 10;
-
 function twoNumberSum(array, targetSum){
     // écrivez votre code ici.
     let array_result = [];
@@ -8,6 +5,7 @@ function twoNumberSum(array, targetSum){
     // iter sur un tableau de données et incrémente l'index i 
     array.forEach(num => {
         let j = 0;
+        console.log(i);
         i++;
             // iter sur un tableau de données et incrémente l'index j. 
             // vérifie que les valeurs numérique ne s'ajoute pas avec elle même
@@ -25,6 +23,6 @@ function twoNumberSum(array, targetSum){
  return array_result;
 }
 
-twoNumberSum(array, targetSum);
+console.log(twoNumberSum(array, targetSum));
     // Merci de ne pas effacer la ligne en dessous.
     exports.twoNumberSum =  twoNumberSum;
