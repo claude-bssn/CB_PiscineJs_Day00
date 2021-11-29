@@ -18,6 +18,5 @@ function firstNonRepeatingCharacter(string) {
         }
     } 
 }
-firstNonRepeatingCharacter(string)
     // Do not edit the line below.
     exports.firstNonRepeatingCharacter = firstNonRepeatingCharacter;

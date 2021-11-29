@@ -19,6 +19,5 @@ function levDist(str1, str2){
     }
     return track[str2.length][str1.length];
 }
-    levDist(str1, str2);
     // Merci de ne pas effacer la ligne en dessous.
     exports.levDist =  levDist;

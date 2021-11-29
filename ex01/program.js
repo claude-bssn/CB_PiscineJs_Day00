@@ -6,6 +6,5 @@ function isPalindrome(string){
         return false;
     }
 }
-    isPalindrome(string);
     // Merci de ne pas effacer la ligne en dessous.
     exports.isPalindrome =  isPalindrome;

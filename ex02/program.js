@@ -4,6 +4,5 @@ function threeLargestNumbers(array){
     });
     return array.slice(Math.max(array.length -3,1))
 }
-    threeLargestNumbers(array);
     // Merci de ne pas effacer la ligne en dessous.
     exports.threeLargestNumbers =  threeLargestNumbers;
