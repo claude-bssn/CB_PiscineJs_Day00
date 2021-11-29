@@ -1,5 +1,3 @@
-let string = "kayak";
-
 function isPalindrome(string){
     let palindrome = string.split("").reverse().join("")
     if (string === palindrome){

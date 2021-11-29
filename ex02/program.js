@@ -1,5 +1,3 @@
-let array = [141, 10, 17, -7, -17, -27, 18, 541, 8, 7, 7]
-
 function threeLargestNumbers(array){
     array.sort(function(a,b){
         return a - b;
